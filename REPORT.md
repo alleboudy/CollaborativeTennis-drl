@@ -13,8 +13,6 @@ The task is episodic, and in order to solve the environment, your agents must ge
 - This yields a single **score** for each episode.
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
-### Definition of Solved:
-The environment is solved if the agent can accumulate an average score of >=+30 over 100 consecutive episodes.
 
 ### Method used:
 To solve this challenge, I trained and used a Deep Deterministic Policy Gradient  ([DDPG](https://arxiv.org/pdf/1509.02971.pdf)) agent treating both agents as one with a state size of 48 and action size of 4 by flattening the states received from the environment
