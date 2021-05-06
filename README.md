@@ -17,10 +17,6 @@ The task is episodic, and in order to solve the environment, your agents must ge
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
-### Definition of Solved
-
-The environment is solved if the agent can accumulate an average score of >=30 over 100 consecutive episodes.
-
 
 ### Dependencies and getting started
 
@@ -39,7 +35,9 @@ To set up your python environment to run the code in this repository, follow the
 	```
 2. clone this repository and install the requirements in the python folder with `pip install ./python`
 
-3. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+3. Download the environment from one of the links below. 
+ You need only select the environment that matches your operating system:
+
 		- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
 		- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
 		- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
