@@ -52,7 +52,7 @@ To set up your python environment to run the code in this repository, follow the
 
 ### Instructions
 
-Run the cells of the `ContinuousControl-Tennis.ipynb` notebook in order to reproduce my results.
+Run the cells of the `CollaborationTennis.ipynb` notebook in order to reproduce my results.
 
 Feel free to watch an agent play the environment using the `play_trained_agent.ipynb`
 
